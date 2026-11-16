@@ -1,14 +1,20 @@
 import 'package:material_ui/material_ui.dart';
 
 // TODO 1: Replace 'Your Name' with your own name.
-const String studentName = 'Your Name';
+const String studentName = 'Sufyan Ahmad';
 
 // TODO 2: Finish this function. It must return:
 //   'Good morning'   when hour is less than 12,
 //   'Good afternoon' when hour is less than 17,
 //   'Good evening'   for every other hour.
 String greetingFor(int hour) {
-  return 'Hello';
+  if (hour < 12) {
+    return 'Good morning';
+  } else if (hour < 17) {
+    return 'Good afternoon';
+  } else {
+    return 'Good evening';
+  }
 }
 
 void main() {
